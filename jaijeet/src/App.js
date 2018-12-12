@@ -26,18 +26,18 @@ class App extends Component {
       "callback": (function () { this.setState({jaijeetUnlocked: true}); }).bind(this)
     })
 
-    this.hints = [
-      <div className="hint">
-        "To get a a better understanding before the lecture, please read the handwritten <a href="https://tinyurl.com/yb6es5o3" target="_blank">notes</a>, not just the slides."
-      </div>
-    ]
+    // this.hints = [
+    //   <div className="hint">
+    //     "To get a a better understanding before the lecture, please read the handwritten <a href="https://tinyurl.com/yb6es5o3" target="_blank">notes</a>, not just the slides."
+    //   </div>
+    // ]
   }
 
   render() {
     const initial = this.state.jaijeetUnlocked ? null : (
       <header className="App-header">
             <p>
-              In Store Now
+              In Stores Now
             </p>
           <img src={da} onMouseOver={e => (e.currentTarget.src = jaijeet_pre)}
                         onMouseOut={e => (e.currentTarget.src = da)}/>
@@ -50,12 +50,14 @@ class App extends Component {
               <p>Find me.</p>
             </div>
           <img src={jaijeet} />
+          <p>Follow my words.</p>
         </header>
     ) : null;
     return (
       <div className="App">
         {initial}
         {jaijeet_c}
+        <a href="/hints.html" target="_blank">Need a hint?</a>
       </div>
     );
   }

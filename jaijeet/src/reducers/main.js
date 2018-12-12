@@ -2,28 +2,28 @@ let encrypted = transformState({
   "To get a better understanding before the lecture, please read the handwritten notes, not just the slides.": {
     "In light of the poor air quality we have decided to have the same number of in person lectures. We will not hold an in person lecture for either I/O: Basics and Interrupts or I/O Disks and Networks.": {
       "Get your facts first, then you can distort them as you please.": {
-        "c_l_ue": "39203947"
+        "c_l_ue": "nope not this one"
       }
     },
     "Shifting the input (in time) shifts the output (by the same amount)": {
       "The mind constructs total acceptance of human observation": {
-        "c__l___u_e": "29109275"
+        "c__l___u_e": "nah"
       },
       "AMAZING FACT: If you know an LTI system's impulse response, you can calculate its response to any input": {
-        "c_l___u_e__": "INSERT REAL CLUE HERE"
+        "c_l___u_e__": "hot tofu soup"
       }
     },
     "Don't watch the clock; do what it does. Keep going.": {
       "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.": {
         "Happiness is not something ready made. It comes from your own actions.": {
-          "c__l_u____e": "if0x9z09i3"
+          "c__l_u____e": "sorry no"
         }
       }
     },
     "When I have a bad day, I dream about opening up a gelato stand on the streets of Sydney, Australia. Doesn't everyone have a random escape fantasy?": {
       "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.": {
         "People who think they know everything are a great annoyance to those of us who do.": {
-          "c__l_u__e": "2192929012"
+          "c__l_u__e": "i'm disappointed ethan"
         }
       }
     }
@@ -35,7 +35,7 @@ inner["jaijeet"] = {
 };
 let innerinner = inner[Object.keys(inner)[1]];
 innerinner["roychowdhury"] = {
-  "password": "BIBO unstable"
+  "password": "JAIJEET’S PARADISE. ALL THE ROLLERCOASTERS ARE _____?_____"
 };
 const initialState = encrypted;
 
@@ -48,9 +48,11 @@ function jrApp(state = initialState, action) {
 }
 
 function decode(state = initialState, action) {
-  switch (action.password) {
-    case undefined: console.log("What's the password?"); return state;
-    case "BIBO unstable": console.log("Good job."); state.cb(); return getDecodedState(state);
+  if (!action.password) {
+    console.log("What's the password?"); return state;
+  }
+  switch (action.password.toUpperCase()) {
+    case "BIBO UNSTABLE": console.log("Good job."); state.cb(); return getDecodedState(state);
     default: console.log("Try again."); return state;
   }
 }
