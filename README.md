@@ -3,6 +3,9 @@
 A scavenger hunt for everyone's favorite coder held at [www.codersonly.club](www.codersonly.club)!
 Every puzzle is meant to lead to a clue that is the name of the next subdomain. You can find them all at puzzlename.codersonly.club!
 
+Planning Doc for more info: [here!](https://paper.dropbox.com/doc/Hey-anyone-wanna-smoke--ATgMdTqXBM7YcwWXmGy8QLyCAQ-hsPK7BSWnHd0ZXaOWoQVD)
+
+
 The intended order was: 
 
 1. wwww
