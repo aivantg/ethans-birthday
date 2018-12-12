@@ -1,0 +1,83 @@
+remote: [1G-----> Cleaning up...        
+remote: [1G-----> Building design from herokuish...        
+remote: [1G-----> Adding BUILD_ENV to build environment...        
+remote: [1G[1G       [1G-----> Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.        
+remote: [1G[1G       [1G       Detected buildpacks: php static        
+remote: [1G[1G       [1G-----> PHP app detected        
+remote: [1;33m        
+remote:  !     WARNING: No 'composer.json' found!        
+remote:  !             
+remote:  !     Your project only contains an 'index.php', no 'composer.json'.        
+remote:  !             
+remote:  !     Using 'index.php' to declare app type as PHP is deprecated and        
+remote:  !     may lead to unexpected behavior.        
+remote:  !             
+remote:  !     Please consider updating your codebase to utilize Composer and        
+remote:  !     modern dependency management in order to benefit from the latest        
+remote:  !     PHP runtimes and improved application performance, as well as        
+remote:  !     control over the PHP versions and extensions available.        
+remote:  !             
+remote:  !     For an introduction to dependency management with Composer and        
+remote:  !     how to get the most out of PHP on Heroku, refer to the docs at        
+remote:  !     https://getcomposer.org/doc/00-intro.md and        
+remote:  !     https://devcenter.heroku.com/articles/getting-started-with-php        
+remote: [0m        
+remote: -----> Bootstrapping...        
+remote: -----> Installing platform packages...        
+remote:        [1;33mNOTICE:[0m No runtime required in composer.lock; using PHP ^5.5.17        
+remote:        - nginx (1.8.1)        
+remote:        - php (5.6.38)        
+remote:        - apache (2.4.37)        
+remote: [1;33m        
+remote:  !     WARNING: Your selected PHP version is close to end-of-life        
+remote:  !             
+remote:  !     No updates or security fixes will be provided for your PHP        
+remote:  !     version series by the PHP Group as of 2018-12-31.        
+remote:  !             
+remote:  !     It is strongly recommended you update your app to a version of        
+remote:  !     PHP with "active support" status immediately to ensure you get        
+remote:  !     the latest bugfixes and security updates each time you deploy.        
+remote:  !             
+remote:  !     You may check the list of versions supported by the PHP Group        
+remote:  !     and their EOL dates here: http://php.net/supported-versions.php        
+remote:  !             
+remote:  !     For a list of supported runtimes & extensions on Heroku, please        
+remote:  !     refer to: https://devcenter.heroku.com/articles/php-support        
+remote: [0m        
+remote: -----> Installing dependencies...        
+remote:        Composer version 1.7.2 2018-08-16 16:57:12        
+remote: -----> Preparing runtime environment...        
+remote: [1;33m       NOTICE: [0mNo Procfile, using 'web: heroku-php-apache2'.        
+remote: -----> Checking for additional extensions to install...        
+remote: [1G[1G       [1G-----> Discovering process types        
+remote: [1G[1G       Procfile declares types -> web        
+remote: [1G-----> Releasing design (dokku/design:latest)...        
+remote: [1G-----> Deploying design (dokku/design:latest)...        
+remote: [1G-----> Attempting to run scripts.dokku.predeploy from app.json (if defined)        
+remote: [1G-----> App Procfile file found (/home/dokku/design/DOKKU_PROCFILE)        
+remote: [1G-----> DOKKU_SCALE file found (/home/dokku/design/DOKKU_SCALE)        
+remote: [1G=====> web=1        
+remote: [1G-----> Attempting pre-flight checks        
+remote: [1G       For more efficient zero downtime deployments, create a file CHECKS.        
+remote: [1G       See http://dokku.viewdocs.io/dokku/deployment/zero-downtime-deploys/ for examples        
+remote: [1G       CHECKS file not found in container: Running simple container check...        
+remote: [1G-----> Waiting for 10 seconds ...        
+remote: [1G-----> Default container check successful!        
+remote: [1G-----> Running post-deploy        
+remote: [1G-----> Configuring design.codersonly.club...(using built-in template)        
+remote: [1G-----> Creating http nginx.conf        
+remote: [1G-----> Running nginx-pre-reload        
+remote: [1G       Reloading nginx        
+remote: [1G-----> Setting config vars        
+remote: [1G       DOKKU_APP_RESTORE:  1        
+remote: [1G-----> Found previous container(s) (cdf2feea7b88) named design.web.1        
+remote: [1G=====> Renaming container (cdf2feea7b88) design.web.1 to design.web.1.1544507366        
+remote: [1G=====> Renaming container (9072ff8aa571) stoic_jepsen to design.web.1        
+remote: [1G-----> Attempting to run scripts.dokku.postdeploy from app.json (if defined)        
+remote: [1G-----> Shutting down old containers in 60 seconds        
+remote: [1G=====> cdf2feea7b88ca1f7bdcbe4a8692af5a40ee46fb8532d1c0ce34057773a21584        
+remote: [1G=====> Application deployed:        
+remote: [1G       http://design.codersonly.club        
+remote: [1G        
+To codersonly.club:design
+   0757a01..e84bc0b  master -> master

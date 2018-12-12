@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bg {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+}
+
+#typography {
+  height: 100vh;
+  line-height: 100vh;
+  font-size: 180px;
+  color: white;
+  font-family: "Shadows Into Light";
+  z-index: 999;
+}

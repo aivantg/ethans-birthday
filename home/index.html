@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Coders Only</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" />
+  </head>
+  <body id="container">
+    <div id="typography">Hey There Coder</div>
+    <div id="challenge">The Party Hasn't Started Yet!</div>
+    <div id="challenge">Check back at 4:25!</div>
+
+  </body>
+</html>
+<script>
+  fetch('http://heyhaha.codersonly.club?log=home', {method: 'POST'}).catch(error => console.error('Error:', error));
+</script>
+<style>
+  body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  a {
+    color: white;
+  }
+
+
+  #typography {
+    font-size: 100px;
+    color: white;
+    font-family: "Space Mono", monospace;
+  }
+
+  #challenge {
+    font-size: 60px;
+    color: white;
+    font-family: "Space Mono", monospace;
+  }
+</style>

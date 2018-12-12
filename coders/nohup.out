@@ -1,0 +1,80 @@
+remote: [1G-----> Cleaning up...        
+remote: [1G-----> Building coders from herokuish...        
+remote: [1G-----> Adding BUILD_ENV to build environment...        
+remote: [1G[1G       [1G-----> .static app detected        
+remote: [1G[1G-----> Copy static files to www        
+remote: [1G[1G-----> Reusing nginx binary from cache        
+remote: [1G[1G-----> Using default app-nginx.conf.sigil        
+remote: [1G[1G-----> Using default mime.types        
+remote: [1G[1G       [1G-----> Discovering process types        
+remote: [1G[1G       Default types for  -> web        
+remote: [1G-----> Releasing coders (dokku/coders:latest)...        
+remote: [1G-----> Deploying coders (dokku/coders:latest)...        
+remote: [1G-----> Attempting to run scripts.dokku.predeploy from app.json (if defined)        
+remote: [1G-----> App Procfile file found (/home/dokku/coders/DOKKU_PROCFILE)        
+remote: [1G-----> DOKKU_SCALE file found (/home/dokku/coders/DOKKU_SCALE)        
+remote: [1G=====> web=1        
+remote: [1G-----> Attempting pre-flight checks        
+remote: [1G       For more efficient zero downtime deployments, create a file CHECKS.        
+remote: [1G       See http://dokku.viewdocs.io/dokku/deployment/zero-downtime-deploys/ for examples        
+remote: [1G       CHECKS file not found in container: Running simple container check...        
+remote: [1G-----> Waiting for 10 seconds ...        
+remote: [1G-----> Default container check successful!        
+remote: [1G-----> Running post-deploy        
+remote: [1G-----> Configuring coders.codersonly.club...(using built-in template)        
+remote: [1G-----> Creating http nginx.conf        
+remote: [1G-----> Running nginx-pre-reload        
+remote: [1G       Reloading nginx        
+remote: [1G-----> Setting config vars        
+remote: [1G       DOKKU_APP_RESTORE:  1        
+remote: [1G-----> Found previous container(s) (50975fd0f272) named coders.web.1        
+remote: [1G=====> Renaming container (50975fd0f272) coders.web.1 to coders.web.1.1544507223        
+remote: [1G=====> Renaming container (b25ffb36e2cb) happy_murdock to coders.web.1        
+remote: [1G-----> Attempting to run scripts.dokku.postdeploy from app.json (if defined)        
+remote: [1G-----> Shutting down old containers in 60 seconds        
+remote: [1G=====> 50975fd0f2727aa0cdf244a6d5a3fc44a000d46eb861fdc2071ff30db1ee7830        
+remote: [1G=====> Application deployed:        
+remote: [1G       http://coders.codersonly.club        
+remote: [1G        
+To codersonly.club:coders
+   98f4085..c92dcc6  master -> master
+remote: [1G-----> Cleaning up...        
+remote: [1G-----> Building coders from herokuish...        
+remote: [1G-----> Adding BUILD_ENV to build environment...        
+remote: [1G[1G       [1G-----> .static app detected        
+remote: [1G[1G-----> Copy static files to www        
+remote: [1G[1G-----> Reusing nginx binary from cache        
+remote: [1G[1G-----> Using default app-nginx.conf.sigil        
+remote: [1G[1G-----> Using default mime.types        
+remote: [1G[1G       [1G-----> Discovering process types        
+remote: [1G[1G       Default types for  -> web        
+remote: [1G-----> Releasing coders (dokku/coders:latest)...        
+remote: [1G-----> Deploying coders (dokku/coders:latest)...        
+remote: [1G-----> Attempting to run scripts.dokku.predeploy from app.json (if defined)        
+remote: [1G-----> App Procfile file found (/home/dokku/coders/DOKKU_PROCFILE)        
+remote: [1G-----> DOKKU_SCALE file found (/home/dokku/coders/DOKKU_SCALE)        
+remote: [1G=====> web=1        
+remote: [1G-----> Attempting pre-flight checks        
+remote: [1G       For more efficient zero downtime deployments, create a file CHECKS.        
+remote: [1G       See http://dokku.viewdocs.io/dokku/deployment/zero-downtime-deploys/ for examples        
+remote: [1G       CHECKS file not found in container: Running simple container check...        
+remote: [1G-----> Waiting for 10 seconds ...        
+remote: [1G-----> Default container check successful!        
+remote: [1G-----> Running post-deploy        
+remote: [1G-----> Configuring coders.codersonly.club...(using built-in template)        
+remote: [1G-----> Creating http nginx.conf        
+remote: [1G-----> Running nginx-pre-reload        
+remote: [1G       Reloading nginx        
+remote: [1G-----> Setting config vars        
+remote: [1G       DOKKU_APP_RESTORE:  1        
+remote: [1G-----> Found previous container(s) (b25ffb36e2cb) named coders.web.1        
+remote: [1G=====> Renaming container (b25ffb36e2cb) coders.web.1 to coders.web.1.1544572435        
+remote: [1G=====> Renaming container (25b07eb9883c) jovial_wescoff to coders.web.1        
+remote: [1G-----> Attempting to run scripts.dokku.postdeploy from app.json (if defined)        
+remote: [1G-----> Shutting down old containers in 60 seconds        
+remote: [1G=====> b25ffb36e2cb683acdfb16ae3d3ef7a80582f588956ab58c7c2ebd2fcf6daab3        
+remote: [1G=====> Application deployed:        
+remote: [1G       http://coders.codersonly.club        
+remote: [1G        
+To codersonly.club:coders
+   c92dcc6..0d5ee90  master -> master

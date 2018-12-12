@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Coders Only</title>
+    <!--
+    You solved the first puzzle! Now that wasn't so bad, right?
+    Welcome to the scavenger hunt made JUST for coders! Only true coders
+    will be able to make it to the end. Are you a true coder? Here are the rules:
+
+    1. Every puzzle will take place on its own subdomain aka: puzzle.codersonly.club
+    2. Every puzzle will have a clue that you are trying to find. once you find the clue,
+       use it as your next subdomain! Eg. clue.codersonly.club
+    3. If you ever get stuck, check out <puzzle_name>.codersonly.club/hints.html For some hints.
+    4. If there's an error on a page, it's probably meant to be there ;)
+    5. Don't guess domain names! Play the game fairly
+    6. If you don't mind, screen record so we can see your reactions to riddles :)
+    7. Good luck! Your first riddle: "What should designers do?"
+
+    See you at the finish line! <3
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" />
+  </head>
+  <body id="container">
+    <div id="typography">Hey There Coder</div>
+    <div id="challenge">The Party Has Started!!</div>
+    <div id="challenge">Can you find the first clue?</div>
+  </body>
+</html>
+<script>
+  fetch('http://heyhaha.codersonly.club?log=home2', {method: 'POST'}).catch(error => console.error('Error:', error));
+</script>
+
+<style>
+  body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  a {
+    color: white;
+  }
+
+
+  #typography {
+    font-size: 100px;
+    color: white;
+    font-family: "Space Mono", monospace;
+  }
+
+  #challenge {
+    font-size: 60px;
+    color: white;
+    font-family: "Space Mono", monospace;
+  }
+</style>

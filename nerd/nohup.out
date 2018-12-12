@@ -1,0 +1,80 @@
+remote: [1G-----> Cleaning up...        
+remote: [1G-----> Building call from herokuish...        
+remote: [1G-----> Adding BUILD_ENV to build environment...        
+remote: [1G[1G       [1G-----> Node.js app detected        
+remote: [1G[1G               
+remote: [1G[1G-----> Creating runtime environment        
+remote: [1G[1G               
+remote: [1G[1G       NPM_CONFIG_LOGLEVEL=error        
+remote: [1G[1G       NODE_VERBOSE=false        
+remote: [1G[1G       NODE_ENV=production        
+remote: [1G[1G       NODE_MODULES_CACHE=true        
+remote: [1G[1G               
+remote: [1G[1G-----> Installing binaries        
+remote: [1G[1G       engines.node (package.json):  unspecified        
+remote: [1G[1G       engines.npm (package.json):   unspecified (use default)        
+remote: [1G[1G       engines.yarn (package.json):  unspecified (use default)        
+remote: [1G[1G               
+remote: [1G[1G       Resolving node version 8.x...        
+remote: [1G[1G       Downloading and installing node 8.14.0...        
+remote: [1G[1G       Using default npm version: 6.4.1        
+remote: [1G[1G       Resolving yarn version 1.x...        
+remote: [1G[1G       Downloading and installing yarn (1.12.3)...        
+remote: [1G[1G       Installed yarn 1.12.3        
+remote: [1G[1G               
+remote: [1G[1G-----> Building dependencies        
+remote: [1G[1G       Installing node modules (yarn.lock)        
+remote: [1G[1G       yarn install v1.12.3        
+remote: [1G[1G       [1/4] Resolving packages...        
+remote: [1G[1G       [2/4] Fetching packages...        
+remote: [1G[1G       [3/4] Linking dependencies...        
+remote: [1G[1G       [4/4] Building fresh packages...        
+remote: [1G[1G       Done in 3.24s.        
+remote: [1G[1G               
+remote: [1G[1G-----> Caching build        
+remote: [1G[1G       - node_modules        
+remote: [1G[1G               
+remote: [1G[1G-----> Pruning devDependencies        
+remote: [1G[1G       yarn install v1.12.3        
+remote: [1G[1G       [1/4] Resolving packages...        
+remote: [1G[1G       [2/4] Fetching packages...        
+remote: [1G[1G       [3/4] Linking dependencies...        
+remote: [1G[1G       [4/4] Building fresh packages...        
+remote: [1G[1G       warning Ignored scripts due to flag.        
+remote: [1G[1G       Done in 0.56s.        
+remote: [1G[1G               
+remote: [1G[1G-----> Build succeeded!        
+remote: [1G[1G       [1G-----> Discovering process types        
+remote: [1G[1G       Default types for  -> web        
+remote: [1G-----> Releasing call (dokku/call:latest)...        
+remote: [1G-----> Deploying call (dokku/call:latest)...        
+remote: [1G-----> Attempting to run scripts.dokku.predeploy from app.json (if defined)        
+remote: [1G-----> App Procfile file found (/home/dokku/call/DOKKU_PROCFILE)        
+remote: [1G-----> DOKKU_SCALE file not found in app image. Generating one based on Procfile...        
+remote: [1G-----> New DOKKU_SCALE file generated        
+remote: [1G=====> web=1        
+remote: [1G-----> Attempting pre-flight checks        
+remote: [1G       For more efficient zero downtime deployments, create a file CHECKS.        
+remote: [1G       See http://dokku.viewdocs.io/dokku/deployment/zero-downtime-deploys/ for examples        
+remote: [1G       CHECKS file not found in container: Running simple container check...        
+remote: [1G-----> Waiting for 10 seconds ...        
+remote: [1G-----> Default container check successful!        
+remote: [1G-----> Running post-deploy        
+remote: [1G-----> Creating new /home/dokku/call/VHOST...        
+remote: [1G-----> Setting config vars        
+remote: [1G       DOKKU_PROXY_PORT:  80        
+remote: [1G-----> Setting config vars        
+remote: [1G       DOKKU_PROXY_PORT_MAP:  http:80:5000        
+remote: [1G-----> Configuring call.codersonly.club...(using built-in template)        
+remote: [1G-----> Creating http nginx.conf        
+remote: [1G-----> Running nginx-pre-reload        
+remote: [1G       Reloading nginx        
+remote: [1G-----> Setting config vars        
+remote: [1G       DOKKU_APP_RESTORE:  1        
+remote: [1G=====> Renaming container (77d768d29b8c) angry_mccarthy to call.web.1        
+remote: [1G-----> Attempting to run scripts.dokku.postdeploy from app.json (if defined)        
+remote: [1G=====> Application deployed:        
+remote: [1G       http://call.codersonly.club        
+remote: [1G        
+To codersonly.club:call
+ * [new branch]      master -> master

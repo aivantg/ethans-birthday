@@ -1,0 +1,7 @@
+<Response>
+<Say voice="man">Hey man, it's Rick again. Say, do you want to listen to my favorite song?</Say>
+<Play>http://demo.twilio.com/docs/classic.mp3</Play>
+<Say voice="man">Your next clue is none other than our great EE16B Lord and Savior!</Say>
+<Say voice="man">All hail Jaijeet</Say>
+<Say voice="man">All hail Jaijeet!</Say>
+</Response>

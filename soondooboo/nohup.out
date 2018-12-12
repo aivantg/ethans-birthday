@@ -1,0 +1,81 @@
+remote: [1G-----> Cleaning up...        
+remote: [1G-----> Building soondooboo from herokuish...        
+remote: [1G-----> Adding BUILD_ENV to build environment...        
+remote: [1G[1G       [1G-----> Node.js app detected        
+remote: [1G[1G               
+remote: [1G[1G-----> Creating runtime environment        
+remote: [1G[1G               
+remote: [1G[1G       NPM_CONFIG_LOGLEVEL=error        
+remote: [1G[1G       NODE_VERBOSE=false        
+remote: [1G[1G       NODE_ENV=production        
+remote: [1G[1G       NODE_MODULES_CACHE=true        
+remote: [1G[1G               
+remote: [1G[1G-----> Installing binaries        
+remote: [1G[1G       engines.node (package.json):  unspecified        
+remote: [1G[1G       engines.npm (package.json):   unspecified (use default)        
+remote: [1G[1G       engines.yarn (package.json):  unspecified (use default)        
+remote: [1G[1G               
+remote: [1G[1G       Resolving node version 8.x...        
+remote: [1G[1G       Downloading and installing node 8.14.0...        
+remote: [1G[1G       Using default npm version: 6.4.1        
+remote: [1G[1G       Resolving yarn version 1.x...        
+remote: [1G[1G       Downloading and installing yarn (1.12.3)...        
+remote: [1G[1G       Installed yarn 1.12.3        
+remote: [1G[1G               
+remote: [1G[1G-----> Restoring cache        
+remote: [1G[1G       - node_modules        
+remote: [1G[1G               
+remote: [1G[1G-----> Building dependencies        
+remote: [1G[1G       Installing node modules (yarn.lock)        
+remote: [1G[1G       yarn install v1.12.3        
+remote: [1G[1G       [1/4] Resolving packages...        
+remote: [1G[1G       [2/4] Fetching packages...        
+remote: [1G[1G       [3/4] Linking dependencies...        
+remote: [1G[1G       [4/4] Building fresh packages...        
+remote: [1G[1G       Done in 1.01s.        
+remote: [1G[1G               
+remote: [1G[1G-----> Caching build        
+remote: [1G[1G       - node_modules        
+remote: [1G[1G               
+remote: [1G[1G-----> Pruning devDependencies        
+remote: [1G[1G       yarn install v1.12.3        
+remote: [1G[1G       [1/4] Resolving packages...        
+remote: [1G[1G       [2/4] Fetching packages...        
+remote: [1G[1G       [3/4] Linking dependencies...        
+remote: [1G[1G       [4/4] Building fresh packages...        
+remote: [1G[1G       warning Ignored scripts due to flag.        
+remote: [1G[1G       Done in 0.23s.        
+remote: [1G[1G               
+remote: [1G[1G-----> Build succeeded!        
+remote: [1G[1G       [1G-----> Discovering process types        
+remote: [1G[1G       Default types for  -> web        
+remote: [1G-----> Releasing soondooboo (dokku/soondooboo:latest)...        
+remote: [1G-----> Deploying soondooboo (dokku/soondooboo:latest)...        
+remote: [1G-----> Attempting to run scripts.dokku.predeploy from app.json (if defined)        
+remote: [1G-----> App Procfile file found (/home/dokku/soondooboo/DOKKU_PROCFILE)        
+remote: [1G-----> DOKKU_SCALE file found (/home/dokku/soondooboo/DOKKU_SCALE)        
+remote: [1G=====> web=1        
+remote: [1G-----> Attempting pre-flight checks        
+remote: [1G       For more efficient zero downtime deployments, create a file CHECKS.        
+remote: [1G       See http://dokku.viewdocs.io/dokku/deployment/zero-downtime-deploys/ for examples        
+remote: [1G       CHECKS file not found in container: Running simple container check...        
+remote: [1G-----> Waiting for 10 seconds ...        
+remote: [1G-----> Default container check successful!        
+remote: [1G-----> Running post-deploy        
+remote: [1G-----> Configuring soondooboo.codersonly.club...(using built-in template)        
+remote: [1G-----> Creating http nginx.conf        
+remote: [1G-----> Running nginx-pre-reload        
+remote: [1G       Reloading nginx        
+remote: [1G-----> Setting config vars        
+remote: [1G       DOKKU_APP_RESTORE:  1        
+remote: [1G-----> Found previous container(s) (8e476724a9dc) named soondooboo.web.1        
+remote: [1G=====> Renaming container (8e476724a9dc) soondooboo.web.1 to soondooboo.web.1.1544572558        
+remote: [1G=====> Renaming container (6b2dac6f95f0) blissful_margulis to soondooboo.web.1        
+remote: [1G-----> Attempting to run scripts.dokku.postdeploy from app.json (if defined)        
+remote: [1G-----> Shutting down old containers in 60 seconds        
+remote: [1G=====> 8e476724a9dc068589f86e5c86cb230becb700e87a0b937a910b24a4c91dc849        
+remote: [1G=====> Application deployed:        
+remote: [1G       http://soondooboo.codersonly.club        
+remote: [1G        
+To codersonly.club:soondooboo
+   796e1d5..9b82a8e  master -> master
