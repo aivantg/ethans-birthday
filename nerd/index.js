@@ -1,7 +1,7 @@
 // Download the helper library from https://www.twilio.com/docs/node/install
 // Your Account Sid and Auth Token from twilio.com/console
-const accountSid = 'AC22f7e3268d043897e34645228455c60b';
-const authToken = '0bec70043876b4d6781b6b8d49eb29bc';
+const accountSid = process.env.sid;
+const authToken = process.env.auth;
 const client = require('twilio')(accountSid, authToken);
 const express = require('express')
 var app = express();
